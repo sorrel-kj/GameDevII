@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: Pistol
   m_EditorClassIdentifier: 
   range: 300
+  ammo_per_clip: 12
+  automatic: 1
+  primary_fire_delay: 0.5
+  spread: 0
