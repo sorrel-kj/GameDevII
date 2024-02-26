@@ -30,7 +30,7 @@ public class Shotgun : Gun
                 for(int i = 0; i < 6; i++)
                 {
                     Vector3 dir = Quaternion.AngleAxis(Random.Range(-gun_data.spread, gun_data.spread), Vector3.up) * cam.transform.forward;
-                    dir = Quaternion.AngleAxis(Random.Range(-gun_data.spread, gun_data.spread), Vector3.right) * dir;
+                    dir = Quaternion.AngleAxis(Random.Range(-gun_data.spread, gun_data.spread), Vector3.right) * cam.transform.forward;
                     //Raycast
                     ray = new Ray(cam.transform.position, dir);
                     RaycastHit hit;
